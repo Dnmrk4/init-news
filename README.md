@@ -2,7 +2,7 @@
 
 #### Author
 
-by [Danmark Mutai](https://dnmrk4.github.io/portfolio/)
+- by [Danmark Mutai](https://dnmrk4.github.io/portfolio/)
 
 ## Description
 
@@ -56,4 +56,5 @@ View the complete site [here](https://initnews.herokuapp.com/)
 - One cannot find specific categories, in News Highlight only the general news are displayed
 
 ## License
- This is a [MIT license](/LICENSE)
+
+ - This is a [MIT license](/LICENSE)
