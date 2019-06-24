@@ -8,14 +8,13 @@
     </div>
     <div class="row">
         {% for article in news %}
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="card"style="display:flex;">
+            <div class="card mb-3" style="max-width: 840px;">
+                <div class="row no-gutters">
                     <div class="col-md-3">
-                        <img src="{{article.urlToImage}}" class="card-img-top" alt="Loading images..."style="width:650px; hieght:400px; padding:15px; margin:auto;">
+                        <img src="{{article.urlToImage}}" class="card-img-top" alt="Loading image...">
                     </div>
-                    
-                    <div class="col-md-10">
-                        <div class="card-body" style="margin:auto; ">
+                    <div class="col-md-8">
+                        <div class="card-body">
                             <h5 class="card-title">{{article.title}}</h5>
                             <p class="small">- {{article.author}} </p>
                             <p class="card-text">{{article.description}}...<a href={{article.url}} target="_blank">Read article</a></p>
