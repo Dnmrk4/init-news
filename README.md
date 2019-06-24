@@ -26,9 +26,9 @@ This webpage will get you caught up on current affairs from all around the world
 | View Top Headlines Articles | Click on the `Top Headlines` button | Redirects to a page that displays articles on Top Headlines |
 | View Articles on Everything | Click on the `Everything` button | Redirects to a page that displays All articles |
 
-## View Live Site here
+## Link demo live site
 
-View the complete site [here]()
+View the complete site [here](https://initnews.herokuapp.com/)
 
 ### Contact Information
 
