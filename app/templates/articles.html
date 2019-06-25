@@ -8,8 +8,8 @@
     </div>
     <div class="row">
         {% for article in news %}
-            <div class="card">
-                <img src="{{article.urlToImage}}" class="card-img-top" alt="Loading image...">
+            <div class="card" style="max-width: 600px;">
+                <img src="{{article.urlToImage}}" class="card-img-top" alt="Loading image..." style="width:700px; hieght:500px;"><br/>
                 <div class="card-body">
                     <h5 class="card-title">{{article.title}}</h5>
                     <p class="small">- {{article.author}} </p>
