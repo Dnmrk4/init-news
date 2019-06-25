@@ -8,7 +8,6 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    # message = 'Hello World'
 
     cat_general = get_sources('general')
     cat_business = get_sources('business')
