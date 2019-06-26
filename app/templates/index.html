@@ -4,7 +4,7 @@
 {% block content%}
 <div class="co">
     <div class="card bg-dark text-white">
-        <div style="background:url(/static/bg.jpg); ">
+        <div style="background:url(/static/bg.jpg); width:100%; hieght:60px;">
             <h5 class="card-title" style="font-weight:bold;letter-spacing:7px;margin:auto;">INIT NEWS</h5>
         </div>
     </div>
@@ -17,45 +17,57 @@
     </div>
     <hr>
     <<div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-        <div class="categories">
-            <h2 >Business News</h2>
+        <div style="width:100%; margin:0 0 20px; padding:10px; background: #fff; overflow: hidden;">
+            <div class="categories">
+                <h2 >Business News</h2>
+            </div>
+            {{macro.sourceCategories(business)}}
         </div>
-        {{macro.sourceCategories(business)}}
     </div>
     <hr>
     <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-        <div class="categories">
-            <h2>Entertainment News</h2>
+        <div style="width:100%; margin:0 0 20px; padding:10px; background: #fff; overflow: hidden;">
+            <div class="categories">
+                <h2>Entertainment News</h2>
+            </div>
+            {{macro.sourceCategories(entertainment)}}
         </div>
-        {{macro.sourceCategories(entertainment)}}
     </div>
     <hr>
     <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-        <div class="categories">
-            <h2>Sports News</h2>
+        <div style="width:100%; margin:0 0 20px; padding:10px; background: #fff; overflow: hidden;">    
+            <div class="categories">
+                <h2>Sports News</h2>
+            </div>
+            {{macro.sourceCategories(sports)}}
         </div>
-        {{macro.sourceCategories(sports)}}
     </div>
     <hr>
     <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-        <div class="categories">
-            <h2>Technology News</h2>
+        <div style="width:100%; margin:0 0 20px; padding:10px; background: #fff; overflow: hidden;">    
+            <div class="categories">
+                <h2>Technology News</h2>
+            </div>
+            {{macro.sourceCategories(tech)}}
         </div>
-        {{macro.sourceCategories(tech)}}
     </div>
     <hr>
     <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-        <div class="categories">
-            <h2>Science News</h2>
+        <div style="width:100%; margin:0 0 20px; padding:10px; background: #fff; overflow: hidden;">
+            <div class="categories">
+                <h2>Science News</h2>
+            </div>
+            {{macro.sourceCategories(science)}}
         </div>
-        {{macro.sourceCategories(science)}}
     </div>
     <hr>
     <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-        <div class="categories">
-            <h2>Health News</h2>
+        <div style="width:100%; margin:0 0 20px; padding:10px; background: #fff; overflow: hidden;">
+            <div class="categories">
+                <h2>Health News</h2>
+            </div>
+            {{macro.sourceCategories(health)}}
         </div>
-        {{macro.sourceCategories(health)}}
     </div>
 </div>
 {% endblock%}
