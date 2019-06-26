@@ -1,11 +1,11 @@
 {% macro sourceCategories(categories) %} 
 {% for category in categories %}
-<div class="containr">
+<div class="containr" style="display:flex;flex-direction:row;">
     <div class="rows">
         <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
-            <div class="card-body">
-                <h5 class="card-title" style="font-size:25px; font-weight:bold;">{{category.name}}</h5>
-                <p class="card-text">{{category.description|truncate(150)}}</p>
+            <div class="card-bdY">
+                <h5 class="card-titl" style="font-size:25px; font-weight:bold;">{{category.name}}</h5>
+                <p class="card-txt">{{category.description|truncate(150)}}</p>
                 <a href="/articles/{{category.id}}&40" class="card-link">Read articles</a>
             </div>
         </div>
