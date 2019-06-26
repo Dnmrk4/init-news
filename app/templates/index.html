@@ -4,10 +4,9 @@
 {% block content%}
 <div class="col-md-3">
     <div class="card bg-dark text-white">
-        <img src="/static/bg.jpg" class="card-img" id="top" alt="">
-        <div class="card-img-overlay">
-            <h5 class="card-title">INIT NEWS</h5>
-        </div>
+        <object data="/static/bg.jpg" class="card-img-overlay">
+            <h5 class="card-title" style="font-weight:bold;letter-spacing:7px;margin:auto;">INIT NEWS</h5>
+        </object>
     </div>
     <hr>
     <div class="row">
@@ -52,11 +51,11 @@
         {{macro.sourceCategories(science)}}
     </div>
     <hr>
-    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Health News</div>
-        <div class="card-body">
-            {{macro.sourceCategories(health)}}
+    <div class="row" id="health">
+        <div class="col-md-3 categories">
+            <h2>Health News</h2>
         </div>
+        {{macro.sourceCategories(health)}}
     </div>
 </div>
 {% endblock%}
