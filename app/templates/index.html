@@ -4,13 +4,13 @@
 {% block content%}
 <div class="col-md-3">
     <div class="card bg-dark text-white">
-        <object data="/static/bg.jpg" class="card-img-overlay">
+        <div style="background:url(/static/bg.jpg); ">
             <h5 class="card-title" style="font-weight:bold;letter-spacing:7px;margin:auto;">INIT NEWS</h5>
-        </object>
+        </div>
     </div>
     <hr>
-    <div class="row">
-        <div class="col-md-3 categories">
+    <div class="rows" style="width:100%; margin:0 0 20px; padding:10px; background:#fff; overflow: hidden; break-inside:avoid;">
+        <div class=" categories">
             <h2>General News</h2>
         </div>
         {{macro.sourceCategories(general)}}
